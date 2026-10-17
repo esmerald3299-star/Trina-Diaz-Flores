@@ -6,4 +6,4 @@ const TASA_IGV = 0.18;
 const igv = subtotal * TASA_IGV;
 const totalPagar = subtotal + igv;
 
-console.log("Total a pagar:", totalPagar);
+console.log("Total a pagar: S/", totalPagar);
