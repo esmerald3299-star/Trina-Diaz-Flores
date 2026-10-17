@@ -1,5 +1,15 @@
 // Desarrollo de Interfaces 1 | Guía 01 | Ejercicio 03
 // Identifica tipos
 // Declara const precio=29.90, const titulo="JavaScript", const disponible=true y const pendiente=null. Declara tipoPrecio, tipoTitulo y tipoDisponible utilizando typeof.
+const precio = 29.90;
+const titulo = "JavaScript";
+const disponible = true;
+const pendiente = null;
 
-// TODO: escribe aquí tu solución.
+const tipoPrecio = typeof precio;
+const tipoTitulo = typeof titulo;
+const tipoDisponible = typeof disponible;
+
+console.log("precio:", tipoPrecio);
+console.log("titulo:", tipoTitulo);
+console.log("disponible:", tipoDisponible);
